@@ -15,4 +15,5 @@ if __name__ == "__main__":
     plt.figure()
     plt.plot(t, y, color="black")
     plt.axis("off")
-    plt.savefig("output.pdf")
+    plt.savefig("output.svg", transparent=True)
+
